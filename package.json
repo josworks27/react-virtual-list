@@ -1,0 +1,41 @@
+{
+  "name": "react-virtual-list",
+  "version": "0.0.1",
+  "description": "virtual_list_for_React",
+  "author": "josworks27",
+  "main": "./build/index.js",
+  "module": "./build/index.es.js",
+  "types": "./build/types/index.d.ts",
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly & rollup -c",
+    "lint": "eslint './**/*.+(js|ts)?(x)'",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf build & rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josworks27/react-virtual-list.git"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "babel-preset-react-app": "^10.0.0",
+    "rollup": "^2.61.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
