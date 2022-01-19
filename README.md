@@ -1,18 +1,6 @@
 # Description
 
-> Virtual List Component for React
+> Virtual List Component for React(WIP)
 
 - 💙 Typescript support
 - 🏃 Currently maintaining
-
-## 1. Getting Started
-
-```shell
-
-```
-
-## 2. Usage
-
-```tsx
-
-```
